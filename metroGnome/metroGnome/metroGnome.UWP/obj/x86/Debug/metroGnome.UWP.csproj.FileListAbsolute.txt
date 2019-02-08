@@ -1,0 +1,1 @@
+C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome.UWP\obj\x86\Debug\metroGnome.UWP.csprojAssemblyReference.cache
