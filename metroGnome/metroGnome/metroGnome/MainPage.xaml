@@ -5,10 +5,35 @@
              x:Class="metroGnome.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="eat pant" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Entry x:Name = "tempo" Placeholder="Enter the tempo" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1"/>
+            <Entry x:Name ="timeSig" Placeholder="Enter the time signature" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="1"/>
+            
+            <ProgressBar x:Name="metronome" Progress="{Binding progress}" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="4"/>
+            
+
+                <Entry x:Name="bpm" Placeholder="Enter the BPM" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2"/>
+            
+        </Grid>
     </StackLayout>
 
 </ContentPage>

@@ -643,6 +643,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome.UWP\odg.jpg">
+      <PackagePath>odg.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

@@ -9,3 +9,4 @@ C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\
 C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.dll
 C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.pdb
+C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.csprojAssemblyReference.cache

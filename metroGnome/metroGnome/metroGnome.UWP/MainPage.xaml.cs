@@ -22,6 +22,9 @@ namespace metroGnome.UWP
             this.InitializeComponent();
 
             LoadApplication(new metroGnome.App());
+
+            ProgressBar metronome = new ProgressBar { };
+
         }
     }
 }
