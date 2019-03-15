@@ -1,1 +1,1 @@
-C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome.UWP\metroGnome.UWP.csproj;x86
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome.UWP\metroGnome.UWP.csproj;x86

@@ -10,3 +10,15 @@ C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\
 C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.dll
 C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.pdb
 C:\Users\cpett\Documents\Github\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.csprojAssemblyReference.cache
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\bin\Debug\netstandard2.0\metroGnome.deps.json
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\bin\Debug\netstandard2.0\metroGnome.dll
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\bin\Debug\netstandard2.0\metroGnome.pdb
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.csprojAssemblyReference.cache
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.csproj.CoreCompileInputs.cache
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.AssemblyInfoInputs.cache
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.AssemblyInfo.cs
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.dll
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\metroGnome.pdb
+C:\Users\hdago\source\repos\metroGnome\metroGnome\metroGnome\metroGnome\obj\Debug\netstandard2.0\XamlC.stamp
