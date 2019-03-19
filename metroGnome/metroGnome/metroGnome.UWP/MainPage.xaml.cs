@@ -21,6 +21,8 @@ namespace metroGnome.UWP
         {
             this.InitializeComponent();
 
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
+
             LoadApplication(new metroGnome.App());
 
             ProgressBar metronome = new ProgressBar { };
