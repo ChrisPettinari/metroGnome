@@ -25,8 +25,11 @@ namespace metroGnome.UWP
 
             LoadApplication(new metroGnome.App());
 
-            ProgressBar metronome = new ProgressBar { };
+            new Syncfusion.XForms.UWP.ProgressBar.SfLinearProgressRenderer();
 
+            
+            
+            
         }
     }
 }

@@ -25,6 +25,44 @@
           }
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll": {}
+        }
+      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -228,6 +266,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -253,6 +292,44 @@
           "lib/XamariniOS/SkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll": {}
+        }
+      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -456,6 +533,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -481,6 +559,44 @@
           "lib/XamariniOS/SkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll": {}
+        }
+      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -684,6 +800,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -709,6 +826,44 @@
           "lib/XamariniOS/SkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll": {}
+        }
+      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -912,6 +1067,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -972,6 +1128,80 @@
         "skiasharp.1.60.0.nupkg.sha512",
         "skiasharp.nuspec",
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "Syncfusion.Licensing/16.4.0.54": {
+      "sha512": "iPdeYFNMXQ/K+bHtPh8Pfa55Yi4/ZsuKPjcuvxKwhqquF8/6rKmIH6iYYJ3Xhs1NpJRF+wyNNiXw5tyPaiNPZw==",
+      "type": "package",
+      "path": "syncfusion.licensing/16.4.0.54",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.16.4.0.54.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/16.4.0.54": {
+      "sha512": "DA9JUWmP3km8H7lvKjZoq1v8+Ks7N0xZkYAU0PUHXeSwDAUsKN0rEEALgBLpcn3Sauzr6Fed1NeXS1+YbWniKA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/16.4.0.54",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard1.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xbf",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xbf",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.16.4.0.54.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+      "sha512": "y5YpyUlMDkwsLm1bjrq+h73wTyeM9enWrApY5npkd11wnW7ruLSE7vM0FJkOHTcJb2g5gX9sriVqicm7NiGWXg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfprogressbar/16.4.0.54",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfProgressBar.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll",
+        "lib/netstandard1.0/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll",
+        "syncfusion.xamarin.sfprogressbar.16.4.0.54.nupkg.sha512",
+        "syncfusion.xamarin.sfprogressbar.nuspec"
       ]
     },
     "WebP.Touch/1.0.8": {
@@ -1354,6 +1584,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Syncfusion.Xamarin.SfProgressBar >= 16.4.0.54",
       "Xamarin.FFImageLoading >= 2.4.4.859",
       "Xamarin.FFImageLoading.Forms >= 2.4.4.859",
       "Xamarin.FFImageLoading.Svg >= 2.4.4.859",
@@ -1364,20 +1595,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hdago\\.nuget\\packages\\": {}
+    "C:\\Users\\cpett\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome.iOS\\metroGnome.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome.iOS\\metroGnome.iOS.csproj",
       "projectName": "metroGnome.iOS",
-      "projectPath": "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome.iOS\\metroGnome.iOS.csproj",
-      "packagesPath": "C:\\Users\\hdago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome.iOS\\obj\\",
+      "projectPath": "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome.iOS\\metroGnome.iOS.csproj",
+      "packagesPath": "C:\\Users\\cpett\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\hdago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cpett\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1390,8 +1621,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome\\metroGnome.csproj": {
-              "projectPath": "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome\\metroGnome.csproj"
+            "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome\\metroGnome.csproj": {
+              "projectPath": "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome\\metroGnome.csproj"
             }
           }
         }
@@ -1400,6 +1631,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": {
+            "target": "Package",
+            "version": "[16.4.0.54, )"
+          },
           "Xamarin.FFImageLoading": {
             "target": "Package",
             "version": "[2.4.4.859, )"

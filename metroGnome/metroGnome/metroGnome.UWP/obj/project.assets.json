@@ -344,6 +344,44 @@
           }
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -436,6 +474,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -924,6 +963,44 @@
           "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -1016,6 +1093,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -1505,6 +1583,44 @@
           "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -1597,6 +1713,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -1905,6 +2022,44 @@
           "lib/uap10.0/SkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -1997,6 +2152,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -2485,6 +2641,44 @@
           "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -2577,6 +2771,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -3066,6 +3261,44 @@
           "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -3158,6 +3391,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -3646,6 +3880,44 @@
           "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -3738,6 +4010,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -4227,6 +4500,44 @@
           "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.54"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -4319,6 +4630,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
@@ -4337,17 +4649,14 @@
   },
   "libraries": {
     "Microsoft.Net.Native.Compiler/2.1.8": {
-      "sha512": "XhelL0kagNwYtUOQVsdCOO963yiDVgh8W8Dr0W0pKEn3aJCVMkvHUK07sRDpPbzBlbEtMXXvm/epFHKZ4NVt2Q==",
+      "sha512": "7836QmE441s7vynQ4M3clWsbZIn3kzM9OqxZfhPTFTpqntHT5qt/T/2Qcg6gO+xlYqfCqaBq6TN0doGn2Ggc2Q==",
       "type": "package",
       "path": "microsoft.net.native.compiler/2.1.8",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
+        "Microsoft.Net.Native.Compiler.2.1.8.nupkg.sha512",
+        "Microsoft.Net.Native.Compiler.nuspec",
         "build/Microsoft.Net.Native.Compiler.props",
         "build/Microsoft.Net.Native.Compiler.targets",
-        "microsoft.net.native.compiler.2.1.8.nupkg.sha512",
-        "microsoft.net.native.compiler.nuspec",
         "tools/LibraryXML/Callisto.rd.xml",
         "tools/LibraryXML/GalaSoft.MvvmLight.Extras.Win8.rd.xml",
         "tools/LibraryXML/GalaSoft.MvvmLight.Win8.rd.xml",
@@ -4390,18 +4699,15 @@
       ]
     },
     "Microsoft.Net.UWPCoreRuntimeSdk/2.1.2": {
-      "sha512": "AxVKlbHOIQbgHE7bbxo++qrXao3f3APPBXch/E0RYETmhmTlxSSssXcowGk3dch8K6VUpd77by87RysEogT6JQ==",
+      "sha512": "Lgwh58rl1g15JBcRYlEZjqNrfyOxf/RCZoxiC4x9A3ssXNOUdLrQiaWEyJYfxNQppKL/qE3M2CDg67W38Fz2Yw==",
       "type": "package",
       "path": "microsoft.net.uwpcoreruntimesdk/2.1.2",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
+        "Microsoft.Net.UWPCoreRuntimeSdk.2.1.2.nupkg.sha512",
+        "Microsoft.Net.UWPCoreRuntimeSdk.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.Net.UWPCoreRuntimeSdk.props",
-        "microsoft.net.uwpcoreruntimesdk.2.1.2.nupkg.sha512",
-        "microsoft.net.uwpcoreruntimesdk.nuspec",
         "tools/CoreRuntime/Microsoft.Build.Net.CoreRuntimeTask.dll",
         "tools/CoreRuntime/Microsoft.Cci.dll",
         "tools/CoreRuntime/Microsoft.Net.CoreRuntime.settings.targets",
@@ -4409,17 +4715,15 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.0.0": {
-      "sha512": "5BdAWDgMNwf90L0J+C/eh6kfHDa37ViL1cBL1nv5zPA4TB2cGV51YiQyvzCEy9DBE0LwwMI4+PkUpIekKyocSA==",
+      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.0.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
+        "Microsoft.NETCore.Platforms.2.0.0.nupkg.sha512",
+        "Microsoft.NETCore.Platforms.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -4714,13 +5018,13 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "R73gEjqCkI2Nw/IlN8QvcgPNklqQiPowp47JwvW0Bnp/RZnjN4UrJwEvWVJWRK1MsQ+HIfGe9i4aQlfK+ei9jA==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
+        "NETStandard.Library.2.0.3.nupkg.sha512",
+        "NETStandard.Library.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
@@ -4837,9 +5141,7 @@
         "build/netstandard2.0/ref/mscorlib.dll",
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
-        "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.3.nupkg.sha512",
-        "netstandard.library.nuspec"
+        "lib/netstandard1.0/_._"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
@@ -5021,17 +5323,14 @@
       ]
     },
     "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
-      "sha512": "rtnjgxFoFFOmCPTtYYWU4qSKjJmTNFnHwPDgQBAbloXXzos2DSwmPvLulOdZyVEZQAAM5wjeuWbQGPcWA0OkwA==",
+      "sha512": "Vr1fDE+Brc5mqmbWIvKizavQRA0Eh/uIGP0zHQ2/BI4PnS0Gz6FvbuonlI8kYDZWg0tGFK9IIO2dGYCR+ez5zg==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.net.native.compiler/2.1.8",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "build/runtime.win10-arm.Microsoft.Net.Native.Compiler.props",
         "build/runtime.win10-arm.Microsoft.Net.Native.Compiler.targets",
-        "runtime.win10-arm.microsoft.net.native.compiler.2.1.8.nupkg.sha512",
-        "runtime.win10-arm.microsoft.net.native.compiler.nuspec",
+        "runtime.win10-arm.Microsoft.Net.Native.Compiler.2.1.8.nupkg.sha512",
+        "runtime.win10-arm.Microsoft.Net.Native.Compiler.nuspec",
         "tools/Runtime/arm/CommandProvider.dll",
         "tools/Runtime/arm/Microsoft.NET.Native.Runtime.2.1.appx",
         "tools/Runtime/arm/SymbolProvider.dll",
@@ -5320,17 +5619,14 @@
       ]
     },
     "runtime.win10-arm.Microsoft.Net.Native.SharedLibrary/2.1.8": {
-      "sha512": "AgZE8ap24GXzm3P8HA0GefOwej4rTGOD94aSnnJZ28jj9hKdZM7UmcS90+/kLKkzkFBZLRK7+UMHn2SPFPoTug==",
+      "sha512": "+GFQKkeiSFLATafE00gey9D//DipituX3RurkzDZL0v2jT3KQv0kWrtIT2xPIL7TLbtUnXDIHty+ULKtaJ+yIA==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.net.native.sharedlibrary/2.1.8",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "build/runtime.win10-arm.Microsoft.Net.Native.SharedLibrary.props",
         "build/runtime.win10-arm.Microsoft.Net.Native.SharedLibrary.targets",
-        "runtime.win10-arm.microsoft.net.native.sharedlibrary.2.1.8.nupkg.sha512",
-        "runtime.win10-arm.microsoft.net.native.sharedlibrary.nuspec",
+        "runtime.win10-arm.Microsoft.Net.Native.SharedLibrary.2.1.8.nupkg.sha512",
+        "runtime.win10-arm.Microsoft.Net.Native.SharedLibrary.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.iltoc",
@@ -5714,19 +6010,16 @@
       ]
     },
     "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.1.2": {
-      "sha512": "IasONRto6AAl6LdG/usV/CsC+gCvl3+oan4PmRiwhbtQnr8SOzN4L7OP3e78OjbcU99bzUoyWkYBD3C3WOOwag==",
+      "sha512": "J4XdbbcvE2iUCsup3rwOsZYaohWLIuP1IW/etf0bwQ9vWCqccuHO3yAWiaWZmWn7nn53PEJ9lZTfNNAiIm/bBw==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.net.uwpcoreruntimesdk/2.1.2",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.props",
         "build/runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.targets",
-        "runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.2.1.2.nupkg.sha512",
-        "runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.nuspec",
+        "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.2.1.2.nupkg.sha512",
+        "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.nuspec",
         "tools/AppLocal/consoleuwpshim.exe",
         "tools/AppLocal/uwpshim.exe",
         "tools/Appx/Microsoft.NET.CoreRuntime.2.1.appx",
@@ -6089,17 +6382,14 @@
       ]
     },
     "runtime.win10-x64.Microsoft.Net.Native.Compiler/2.1.8": {
-      "sha512": "qVsevH8UVs8G6wKRoAeXWzwfmllWURi/acPZdK8qHFH4a2/dzNo30UxJdaglTYXjTqqaO8ZL5JvBnK1B1wK9aA==",
+      "sha512": "E3i4dyU1QeWuA4Y6FUaAZuKv0g8hGH84AF+aMZF1OmalZg10iEg7Cz9KW49XpOyFY7T4Gw2852TE00nsakm5xA==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.net.native.compiler/2.1.8",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "build/runtime.win10-x64.Microsoft.Net.Native.Compiler.props",
         "build/runtime.win10-x64.Microsoft.Net.Native.Compiler.targets",
-        "runtime.win10-x64.microsoft.net.native.compiler.2.1.8.nupkg.sha512",
-        "runtime.win10-x64.microsoft.net.native.compiler.nuspec",
+        "runtime.win10-x64.Microsoft.Net.Native.Compiler.2.1.8.nupkg.sha512",
+        "runtime.win10-x64.Microsoft.Net.Native.Compiler.nuspec",
         "tools/Runtime/x64/CommandProvider.dll",
         "tools/Runtime/x64/Microsoft.NET.Native.Runtime.2.1.appx",
         "tools/Runtime/x64/SymbolProvider.dll",
@@ -6382,17 +6672,14 @@
       ]
     },
     "runtime.win10-x64.Microsoft.Net.Native.SharedLibrary/2.1.8": {
-      "sha512": "aUTYTKqelLL5dQOTWld3aVFamtazKyf0UgVCFRlb6/WAaIg2e+W6elf66y+uy76CYTQuKJ7zrQqzB6Cokko3fA==",
+      "sha512": "B9U0uEaDWqw7niAffdT7K340GEz888ADwiZ+KqxC6kCCINxvkdF5pXgPGKD4maZt6cz/eoteiUVE/n119+6iVg==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.net.native.sharedlibrary/2.1.8",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "build/runtime.win10-x64.Microsoft.Net.Native.SharedLibrary.props",
         "build/runtime.win10-x64.Microsoft.Net.Native.SharedLibrary.targets",
-        "runtime.win10-x64.microsoft.net.native.sharedlibrary.2.1.8.nupkg.sha512",
-        "runtime.win10-x64.microsoft.net.native.sharedlibrary.nuspec",
+        "runtime.win10-x64.Microsoft.Net.Native.SharedLibrary.2.1.8.nupkg.sha512",
+        "runtime.win10-x64.Microsoft.Net.Native.SharedLibrary.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.iltoc",
@@ -6776,19 +7063,16 @@
       ]
     },
     "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk/2.1.2": {
-      "sha512": "O3ykUbGKlY3bdapcCEyUCRH/dR2ylrtnLnVOpzv33PPtZvorKWcrB8DNuaBmfAzTCNKMSSbtR0/3yYysUpXbFg==",
+      "sha512": "Mj9j4vg9yIdvppce0eC8+EIhLmv3Uv3CNKi2v84Fl5zeSs26w9l2svE2LTixB5OTE/pj2p7cW2lUMHeWWm1tgg==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.net.uwpcoreruntimesdk/2.1.2",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.props",
         "build/runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.targets",
-        "runtime.win10-x64.microsoft.net.uwpcoreruntimesdk.2.1.2.nupkg.sha512",
-        "runtime.win10-x64.microsoft.net.uwpcoreruntimesdk.nuspec",
+        "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.2.1.2.nupkg.sha512",
+        "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.nuspec",
         "tools/AppLocal/consoleuwpshim.exe",
         "tools/AppLocal/uwpshim.exe",
         "tools/Appx/Microsoft.NET.CoreRuntime.2.1.appx",
@@ -7151,17 +7435,14 @@
       ]
     },
     "runtime.win10-x86.Microsoft.Net.Native.Compiler/2.1.8": {
-      "sha512": "ikLCf5erXpW0vwppcZN77EcK6v6CSS0Z9DuFif2FfXuCsWbbcARqoBnM/4a1n6Ug4MXhhr9YSPtM3gUmpJrWrQ==",
+      "sha512": "jU4nh95M1a+4AsPJcKcK1ddrVIJ1yi8kGKvaC0L4N/aTZokh2IeFD0qr0I8aGjivzgqKw6AM+JyoOT5dlXp7sw==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.net.native.compiler/2.1.8",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "build/runtime.win10-x86.Microsoft.Net.Native.Compiler.props",
         "build/runtime.win10-x86.Microsoft.Net.Native.Compiler.targets",
-        "runtime.win10-x86.microsoft.net.native.compiler.2.1.8.nupkg.sha512",
-        "runtime.win10-x86.microsoft.net.native.compiler.nuspec",
+        "runtime.win10-x86.Microsoft.Net.Native.Compiler.2.1.8.nupkg.sha512",
+        "runtime.win10-x86.Microsoft.Net.Native.Compiler.nuspec",
         "tools/Runtime/x86/CommandProvider.dll",
         "tools/Runtime/x86/Microsoft.NET.Native.Runtime.2.1.appx",
         "tools/Runtime/x86/SymbolProvider.dll",
@@ -7444,17 +7725,14 @@
       ]
     },
     "runtime.win10-x86.Microsoft.Net.Native.SharedLibrary/2.1.8": {
-      "sha512": "4VD4rfGFJ9SJxVXkbRFuQUSj583VHg6BK7ZyKA+OYjjU7bqxvqk2hD2o/yBALPSPO/30uIkzzrmONOAiwJBbqQ==",
+      "sha512": "79ZCjEsNc1Fe9B+CmzDOSIPBF9CYFaK1qphCbgGHryIdDvMtRpEnkm8pWxR8q/2MTO5JuT0vBW42LVsW5VYVfg==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.net.native.sharedlibrary/2.1.8",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "build/runtime.win10-x86.Microsoft.Net.Native.SharedLibrary.props",
         "build/runtime.win10-x86.Microsoft.Net.Native.SharedLibrary.targets",
-        "runtime.win10-x86.microsoft.net.native.sharedlibrary.2.1.8.nupkg.sha512",
-        "runtime.win10-x86.microsoft.net.native.sharedlibrary.nuspec",
+        "runtime.win10-x86.Microsoft.Net.Native.SharedLibrary.2.1.8.nupkg.sha512",
+        "runtime.win10-x86.Microsoft.Net.Native.SharedLibrary.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.iltoc",
@@ -7838,19 +8116,16 @@
       ]
     },
     "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk/2.1.2": {
-      "sha512": "7FFnETsDe+tu8JllHnJ+eGAqGG+8JSneCPKfwilk1gwAngzCw3+5g097LyomIjcHhCYMo3wjHFDP5sI2gvXrQA==",
+      "sha512": "MeYqB6D7vA9eRb2fDjN9LWTLAY+m5Ocg4SBoEtG1oLPXgfuJcUNUb+etdsid/V3j7jgr4ito60Wr8U03mmJGuA==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.net.uwpcoreruntimesdk/2.1.2",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props",
         "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets",
-        "runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.1.2.nupkg.sha512",
-        "runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.nuspec",
+        "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.2.1.2.nupkg.sha512",
+        "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.nuspec",
         "tools/AppLocal/consoleuwpshim.exe",
         "tools/AppLocal/uwpshim.exe",
         "tools/Appx/Microsoft.NET.CoreRuntime.2.1.appx",
@@ -8077,6 +8352,80 @@
         "skiasharp.1.60.0.nupkg.sha512",
         "skiasharp.nuspec",
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "Syncfusion.Licensing/16.4.0.54": {
+      "sha512": "iPdeYFNMXQ/K+bHtPh8Pfa55Yi4/ZsuKPjcuvxKwhqquF8/6rKmIH6iYYJ3Xhs1NpJRF+wyNNiXw5tyPaiNPZw==",
+      "type": "package",
+      "path": "syncfusion.licensing/16.4.0.54",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.16.4.0.54.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/16.4.0.54": {
+      "sha512": "DA9JUWmP3km8H7lvKjZoq1v8+Ks7N0xZkYAU0PUHXeSwDAUsKN0rEEALgBLpcn3Sauzr6Fed1NeXS1+YbWniKA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/16.4.0.54",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard1.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xbf",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xbf",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.16.4.0.54.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+      "sha512": "y5YpyUlMDkwsLm1bjrq+h73wTyeM9enWrApY5npkd11wnW7ruLSE7vM0FJkOHTcJb2g5gX9sriVqicm7NiGWXg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfprogressbar/16.4.0.54",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfProgressBar.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfProgressBar.XForms.iOS.dll",
+        "lib/netstandard1.0/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfProgressBar.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfProgressBar.XForms.dll",
+        "syncfusion.xamarin.sfprogressbar.16.4.0.54.nupkg.sha512",
+        "syncfusion.xamarin.sfprogressbar.nuspec"
       ]
     },
     "Xamarin.FFImageLoading/2.4.4.859": {
@@ -8445,6 +8794,7 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
+      "Syncfusion.Xamarin.SfProgressBar >= 16.4.0.54",
       "Xamarin.FFImageLoading >= 2.4.4.859",
       "Xamarin.FFImageLoading.Forms >= 2.4.4.859",
       "Xamarin.FFImageLoading.Svg >= 2.4.4.859",
@@ -8455,24 +8805,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hdago\\.nuget\\packages\\": {},
+    "C:\\Users\\cpett\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome.UWP\\metroGnome.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome.UWP\\metroGnome.UWP.csproj",
       "projectName": "metroGnome.UWP",
-      "projectPath": "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome.UWP\\metroGnome.UWP.csproj",
-      "packagesPath": "C:\\Users\\hdago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome.UWP\\obj\\",
+      "projectPath": "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome.UWP\\metroGnome.UWP.csproj",
+      "packagesPath": "C:\\Users\\cpett\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\hdago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cpett\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8485,8 +8835,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome\\metroGnome.csproj": {
-              "projectPath": "C:\\Users\\hdago\\source\\repos\\metroGnome\\metroGnome\\metroGnome\\metroGnome\\metroGnome.csproj"
+            "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome\\metroGnome.csproj": {
+              "projectPath": "C:\\Users\\cpett\\Documents\\Github\\metroGnome\\metroGnome\\metroGnome\\metroGnome\\metroGnome.csproj"
             }
           }
         }
@@ -8498,6 +8848,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.5, )"
+          },
+          "Syncfusion.Xamarin.SfProgressBar": {
+            "target": "Package",
+            "version": "[16.4.0.54, )"
           },
           "Xamarin.FFImageLoading": {
             "target": "Package",

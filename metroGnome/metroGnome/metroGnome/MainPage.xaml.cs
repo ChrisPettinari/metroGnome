@@ -1,15 +1,21 @@
 ﻿using System;
+using System.Timers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TouchTracking;
 using Xamarin.Forms;
+using Syncfusion.XForms.ProgressBar;
 
 namespace metroGnome
 {
     public partial class MainPage : ContentPage
     {
+
+        //ProgressBar metronome = new ProgressBar {Progress = .5};
+
+        
 
         private double centerX = 0, centerY = 0;
         private double startingRotation = 0, startingDegrees = 0, lastDegrees = 0;
@@ -77,13 +83,30 @@ namespace metroGnome
                     current = Math.Max(Math.Min(current, max), min);
 
                     bpm.Text = (int)current + "";
-                    //
+                   
 
                     break;
                 case TouchActionType.Released:
                     Console.WriteLine(temp);
 
                     break;
+            }
+        }
+
+        //int rate = (1 / (Convert.ToUInt32(bpm.Text) / 60) * 1000);
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            bpm.Text = "120";
+            
+
+            while (true)
+            {
+                int rate = (int)((1 / (Convert.ToDouble(bpm.Text) / 60)) * 1000);
+
+                await metronome.ProgressTo(1, Convert.ToUInt32(rate), Easing.Linear);
+
+                await metronome.ProgressTo(0, Convert.ToUInt32(rate), Easing.Linear);
             }
         }
     }
