@@ -8,7 +8,7 @@
              x:Class="metroGnome.MainPage">
 
     <StackLayout>
-        <Grid>
+        <Grid x:Name="grid">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -35,9 +35,17 @@
 
             <ProgressBar x:Name="metronome" Grid.Column="2" Grid.ColumnSpan="6"  Grid.Row="8"/>
 
-            <Label Text="BPM/Tempo/whatever" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2"/>
+            <Label x:Name="poop" Text="BPM/Tempo/whatever" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2"/>
             <Label x:Name="bpm" Grid.Row="6" Grid.Column="5" />
             
+            <Button x:Name="templeblockBtn" Text="Temple Block" Grid.Row="2" Grid.Column="2" Pressed="Pressed"/>
+            
+            <Button x:Name="woodblockBtn" Text="Wood Block" Grid.Row="2" Grid.Column="3" Pressed="Pressed" />
+
+            <Button x:Name="claveBtn" Text="Clave" Grid.Row="2" Grid.Column="4" Pressed="Pressed" />
+            
+            <Button x:Name="wooBtn" Text="woo" Grid.Row="2" Grid.Column="5" Pressed="Pressed"/>
+
         </Grid>
 
         <Grid x:Name="gridContainer">

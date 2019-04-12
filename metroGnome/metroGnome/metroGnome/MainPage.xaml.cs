@@ -6,16 +6,18 @@ using System.Text;
 using System.Threading.Tasks;
 using TouchTracking;
 using Xamarin.Forms;
+using Plugin.SimpleAudioPlayer;
 using Syncfusion.XForms.ProgressBar;
 
 namespace metroGnome
 {
     public partial class MainPage : ContentPage
-    {
+    {   //wat
 
-        //ProgressBar metronome = new ProgressBar {Progress = .5};
 
-        
+
+
+        private int startTicks = Environment.TickCount;
 
         private double centerX = 0, centerY = 0;
         private double startingRotation = 0, startingDegrees = 0, lastDegrees = 0;
@@ -25,9 +27,37 @@ namespace metroGnome
 
         private double temp { get; set; }
 
+        private List<ISimpleAudioPlayer> players;
+
         public MainPage()
         {
             InitializeComponent();
+
+            players = new List<ISimpleAudioPlayer>();
+
+            /*for (int i = 0; i < 60; i++)
+            {
+                ISimpleAudioPlayer player = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
+                player.Load(@"Clave Sound.wav");
+                player.Loop = false;
+
+                players.Add(player);
+
+            }*/
+
+           
+        }
+
+        void Play()
+        {
+            for (int i = 0; i < players.Count; i++)
+            {
+                if (!players[i].IsPlaying)
+                {
+                    players[i].Play();
+                    break;
+                }
+            }
         }
 
         void PanGesture_TouchAction(object sender, TouchActionEventArgs args)
@@ -83,7 +113,7 @@ namespace metroGnome
                     current = Math.Max(Math.Min(current, max), min);
 
                     bpm.Text = (int)current + "";
-                   
+
 
                     break;
                 case TouchActionType.Released:
@@ -96,17 +126,113 @@ namespace metroGnome
         //int rate = (1 / (Convert.ToUInt32(bpm.Text) / 60) * 1000);
         protected override async void OnAppearing()
         {
+
+
             base.OnAppearing();
             bpm.Text = "120";
-            
 
             while (true)
             {
-                int rate = (int)((1 / (Convert.ToDouble(bpm.Text) / 60)) * 1000);
 
-                await metronome.ProgressTo(1, Convert.ToUInt32(rate), Easing.Linear);
+                int elapsedTicks = Environment.TickCount - startTicks;
 
-                await metronome.ProgressTo(0, Convert.ToUInt32(rate), Easing.Linear);
+                int beats = (1000 * 60) / Convert.ToInt32(bpm.Text);  // Calculate ms between beats
+
+                //int rate = (int)((1 / (Convert.ToDouble(bpm.Text) / 60)) * 1000);
+
+                double progress = (elapsedTicks % beats) / (double)beats;
+
+                progress *= 1.1;
+                progress = Math.Min(1, Math.Max(0, progress));
+
+                if (elapsedTicks / beats % 2 == 1)
+                {
+                    progress = 1 - progress;
+
+                }
+
+                if (progress == 1 || progress == 0)
+                {
+                    Random rdm = new Random();
+                    Play();
+                    wooBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                    woodblockBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                    claveBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                    templeblockBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                }
+                metronome.Progress = progress;
+                await Task.Delay(1);
+
+            }
+        }
+
+        private void Pressed(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+
+            if (b.Text == "Temple Block")
+            {
+                players.Clear();
+
+                for (int i = 0; i < 60; i++)
+                {
+                    
+
+                    ISimpleAudioPlayer player = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
+                    player.Load(@"Temple Block Sound.wav");
+                    player.Loop = false;
+
+                    players.Add(player);
+
+                }
+            }
+            else if (b.Text == "Wood Block")
+            {
+                players.Clear();
+                for (int i = 0; i < 60; i++)
+                {
+                    
+
+                    ISimpleAudioPlayer player = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
+                    player.Load(@"Wood Block Sound.wav");
+                    player.Loop = false;
+
+                    players.Add(player);
+
+                }
+            }
+            else if (b.Text == "Clave")
+            {
+                players.Clear();
+                for (int i = 0; i < 60; i++)
+                {
+                    
+
+                    ISimpleAudioPlayer player = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
+                    player.Load(@"Clave Sound.wav");
+                    player.Loop = false;
+
+                    players.Add(player);
+
+                }
+            }
+            else if (b.Text == "woo")
+            {
+                players.Clear();
+
+                for (int i = 0; i < 60; i++)
+                {
+                    ISimpleAudioPlayer player = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
+                    player.Load(@"woo.wav");
+                    player.Loop = false;
+
+                    players.Add(player);
+
+                }
+                Random rdm = new Random();
+                b.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+
+                
             }
         }
     }

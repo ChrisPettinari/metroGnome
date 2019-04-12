@@ -1,4 +1,6 @@
 WinMetadata\Windows.winmd
+Assets\Clave Sound.wav
+Assets\hh1.wav
 Assets\LargeTile.scale-100.png
 Assets\LargeTile.scale-200.png
 Assets\LargeTile.scale-400.png
@@ -23,9 +25,13 @@ Assets\Square44x44Logo.targetsize-48.png
 Assets\StoreLogo.scale-100.png
 Assets\StoreLogo.scale-200.png
 Assets\StoreLogo.scale-400.png
+Assets\Temple Block Sound.wav
 Assets\Wide310x150Logo.scale-100.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
+Assets\woo.mp3
+Assets\woo.wav
+Assets\Wood Block Sound.wav
 App.xbf
 MainPage.xbf
 metroGnome.UWP.xr.xml

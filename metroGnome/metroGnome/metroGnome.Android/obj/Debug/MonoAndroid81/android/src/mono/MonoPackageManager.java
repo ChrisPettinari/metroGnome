@@ -116,6 +116,8 @@ class MonoPackageManager_Resources {
 		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
 		"metroGnome.dll",
+		"Plugin.SimpleAudioPlayer.Abstractions.dll",
+		"Plugin.SimpleAudioPlayer.dll",
 		"SkiaSharp.dll",
 		"Syncfusion.Core.XForms.Android.dll",
 		"Syncfusion.Core.XForms.dll",

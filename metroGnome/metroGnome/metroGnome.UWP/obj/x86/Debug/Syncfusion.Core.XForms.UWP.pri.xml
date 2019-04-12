@@ -16,8 +16,8 @@
 						</Candidate>
 					</NamedResource>
 					<NamedResource name="ToggleCollapsedIcon.xbf" uri="ms-resource://Syncfusion.Core.XForms.UWP/Files/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xbf">
-						<Candidate type="Path">
-							<Value>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf</Value>
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
 					<NamedResource name="ToggleVisibleIcon.xaml" uri="ms-resource://Syncfusion.Core.XForms.UWP/Files/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xaml">
@@ -26,8 +26,8 @@
 						</Candidate>
 					</NamedResource>
 					<NamedResource name="ToggleVisibleIcon.xbf" uri="ms-resource://Syncfusion.Core.XForms.UWP/Files/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xbf">
-						<Candidate type="Path">
-							<Value>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf</Value>
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>

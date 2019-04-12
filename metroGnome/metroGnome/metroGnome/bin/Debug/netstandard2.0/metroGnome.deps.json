@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d6c4c40713917e3b7196c7e41c3ad1ededf792d1"
+    "signature": "c3cbb1c60f22a4d3403d03bb831a7b9b895e3add"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,13 +10,14 @@
       "metroGnome/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Syncfusion.Xamarin.SfProgressBar": "16.4.0.54",
+          "Syncfusion.Xamarin.SfProgressBar": "17.1.0.40",
+          "Xam.Plugin.SimpleAudioPlayer": "1.3.0",
           "Xamarin.FFImageLoading": "2.4.4.859",
           "Xamarin.FFImageLoading.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg": "2.4.4.859",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.4.859",
           "Xamarin.FFImageLoading.Transformations": "2.4.4.859",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Xamarin.Forms": "3.6.0.293080"
         },
         "runtime": {
           "metroGnome.dll": {}
@@ -36,34 +37,49 @@
           }
         }
       },
-      "Syncfusion.Licensing/16.4.0.54": {
+      "Syncfusion.Licensing/17.1.0.40": {
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "16.4.0.54",
-            "fileVersion": "16.4.0.54"
+            "assemblyVersion": "17.1.0.40",
+            "fileVersion": "17.1.0.40"
           }
         }
       },
-      "Syncfusion.Xamarin.Core/16.4.0.54": {
+      "Syncfusion.Xamarin.Core/17.1.0.40": {
         "dependencies": {
-          "Syncfusion.Licensing": "16.4.0.54"
+          "Syncfusion.Licensing": "17.1.0.40"
         },
         "runtime": {
           "lib/netstandard1.0/Syncfusion.Core.XForms.dll": {
-            "assemblyVersion": "16.4451.0.54",
-            "fileVersion": "16.4451.0.54"
+            "assemblyVersion": "17.1451.0.40",
+            "fileVersion": "17.1451.0.40"
           }
         }
       },
-      "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+      "Syncfusion.Xamarin.SfProgressBar/17.1.0.40": {
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.54",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Syncfusion.Xamarin.Core": "17.1.0.40",
+          "Xamarin.Forms": "3.6.0.293080"
         },
         "runtime": {
           "lib/netstandard1.0/Syncfusion.SfProgressBar.XForms.dll": {
-            "assemblyVersion": "16.4451.0.54",
-            "fileVersion": "16.4451.0.54"
+            "assemblyVersion": "17.1451.0.40",
+            "fileVersion": "17.1451.0.40"
+          }
+        }
+      },
+      "Xam.Plugin.SimpleAudioPlayer/1.3.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -82,7 +98,7 @@
       "Xamarin.FFImageLoading.Forms/2.4.4.859": {
         "dependencies": {
           "Xamarin.FFImageLoading": "2.4.4.859",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Xamarin.Forms": "3.6.0.293080"
         },
         "runtime": {
           "lib/netstandard1.0/FFImageLoading.Forms.dll": {
@@ -126,7 +142,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.1.0.697729": {
+      "Xamarin.Forms/3.6.0.293080": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -171,26 +187,33 @@
       "path": "skiasharp/1.60.0",
       "hashPath": "skiasharp.1.60.0.nupkg.sha512"
     },
-    "Syncfusion.Licensing/16.4.0.54": {
+    "Syncfusion.Licensing/17.1.0.40": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iPdeYFNMXQ/K+bHtPh8Pfa55Yi4/ZsuKPjcuvxKwhqquF8/6rKmIH6iYYJ3Xhs1NpJRF+wyNNiXw5tyPaiNPZw==",
-      "path": "syncfusion.licensing/16.4.0.54",
-      "hashPath": "syncfusion.licensing.16.4.0.54.nupkg.sha512"
+      "sha512": "sha512-1KrFju95ZUPrZKiTlpDz7AUKaJKYeG38w+NWDMaJzf9KhVYKNR8AuWJT6W2GbuMhrcQ/Of4+gkSOLzhp/2ZmnQ==",
+      "path": "syncfusion.licensing/17.1.0.40",
+      "hashPath": "syncfusion.licensing.17.1.0.40.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Core/16.4.0.54": {
+    "Syncfusion.Xamarin.Core/17.1.0.40": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DA9JUWmP3km8H7lvKjZoq1v8+Ks7N0xZkYAU0PUHXeSwDAUsKN0rEEALgBLpcn3Sauzr6Fed1NeXS1+YbWniKA==",
-      "path": "syncfusion.xamarin.core/16.4.0.54",
-      "hashPath": "syncfusion.xamarin.core.16.4.0.54.nupkg.sha512"
+      "sha512": "sha512-5sjXxwEDAdMSK2CdBfgZaePg/jtZFxzu3Xx+/XxTRgn4NbkVnu2Btr+LaQ1PavptSd3XG5BY5o5uMilh6Z1Xgw==",
+      "path": "syncfusion.xamarin.core/17.1.0.40",
+      "hashPath": "syncfusion.xamarin.core.17.1.0.40.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.SfProgressBar/16.4.0.54": {
+    "Syncfusion.Xamarin.SfProgressBar/17.1.0.40": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-y5YpyUlMDkwsLm1bjrq+h73wTyeM9enWrApY5npkd11wnW7ruLSE7vM0FJkOHTcJb2g5gX9sriVqicm7NiGWXg==",
-      "path": "syncfusion.xamarin.sfprogressbar/16.4.0.54",
-      "hashPath": "syncfusion.xamarin.sfprogressbar.16.4.0.54.nupkg.sha512"
+      "sha512": "sha512-i0lR+JMSsrHksMw+VP8+VkzbVCvw8D5lWjss4Ppk0f3ZnQdJ+hJZLUG75M/Q5ZALUlQAi8/iJep2SBjG5VxyJA==",
+      "path": "syncfusion.xamarin.sfprogressbar/17.1.0.40",
+      "hashPath": "syncfusion.xamarin.sfprogressbar.17.1.0.40.nupkg.sha512"
+    },
+    "Xam.Plugin.SimpleAudioPlayer/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AbfKh5skVRtJn0ckRj1VDPOTf5bsNyTbfDL/bFiAI3vaq3Y/zgLvlo3Thfwv2V92P4e/PhPCkHTX8UPVyQTqJQ==",
+      "path": "xam.plugin.simpleaudioplayer/1.3.0",
+      "hashPath": "xam.plugin.simpleaudioplayer.1.3.0.nupkg.sha512"
     },
     "Xamarin.FFImageLoading/2.4.4.859": {
       "type": "package",
@@ -227,12 +250,12 @@
       "path": "xamarin.ffimageloading.transformations/2.4.4.859",
       "hashPath": "xamarin.ffimageloading.transformations.2.4.4.859.nupkg.sha512"
     },
-    "Xamarin.Forms/3.1.0.697729": {
+    "Xamarin.Forms/3.6.0.293080": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oYfHpCY9i9wN4vLllsIhzDZY5iOCUtZ3RHxID1fiXOcf7yL9UA16NUsI8opoNmpv1Ru2lTGG9ZKKT1sYS6DLjA==",
-      "path": "xamarin.forms/3.1.0.697729",
-      "hashPath": "xamarin.forms.3.1.0.697729.nupkg.sha512"
+      "sha512": "sha512-o7GH+huLZMGlBxFCFAV5g+P3xoYoXFPeGrZ+AI8ezt2Gey/ZeZjSlf3nR3DzZKClVsCTvJS8Z5rVlC1dexSv+A==",
+      "path": "xamarin.forms/3.6.0.293080",
+      "hashPath": "xamarin.forms.3.6.0.293080.nupkg.sha512"
     }
   }
 }
