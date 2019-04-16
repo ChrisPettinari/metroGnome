@@ -21,7 +21,6 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
@@ -35,16 +34,16 @@
 
             <ProgressBar x:Name="metronome" Grid.Column="2" Grid.ColumnSpan="6"  Grid.Row="8"/>
 
-            <Label x:Name="poop" Text="BPM/Tempo/whatever" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2"/>
+            <Label x:Name="poop" Text="Tempo" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2"/>
             <Label x:Name="bpm" Grid.Row="6" Grid.Column="5" />
             
-            <Button x:Name="templeblockBtn" Text="Temple Block" Grid.Row="2" Grid.Column="2" Pressed="Pressed"/>
+            <Button x:Name="templeblockBtn" Text="Temple Block" Grid.Row="2" Grid.Column="3" Pressed="Pressed"/>
             
-            <Button x:Name="woodblockBtn" Text="Wood Block" Grid.Row="2" Grid.Column="3" Pressed="Pressed" />
+            <Button x:Name="woodblockBtn" Text="Wood Block" Grid.Row="2" Grid.Column="4" Pressed="Pressed" />
 
-            <Button x:Name="claveBtn" Text="Clave" Grid.Row="2" Grid.Column="4" Pressed="Pressed" />
+            <Button x:Name="claveBtn" Text="Clave" Grid.Row="2" Grid.Column="5" Pressed="Pressed" />
             
-            <Button x:Name="wooBtn" Text="woo" Grid.Row="2" Grid.Column="5" Pressed="Pressed"/>
+            <Button x:Name="wooBtn" Text="woo" Grid.Row="2" Grid.Column="6" Pressed="Pressed"/>
 
         </Grid>
 

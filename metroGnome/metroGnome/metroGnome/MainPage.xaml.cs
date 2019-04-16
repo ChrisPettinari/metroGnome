@@ -13,7 +13,7 @@ namespace metroGnome
 {
     public partial class MainPage : ContentPage
     {   //wat
-
+        public bool woo = false;
 
 
 
@@ -50,12 +50,62 @@ namespace metroGnome
 
         void Play()
         {
+            Random rdm = new Random();
+
             for (int i = 0; i < players.Count; i++)
             {
                 if (!players[i].IsPlaying)
                 {
                     players[i].Play();
+
+                    if (woo)
+                    {
+                        wooBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        woodblockBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        claveBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        templeblockBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        grid.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        wooBtn.BorderColor =  Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        woodblockBtn.BorderColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        claveBtn.BorderColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        wooBtn.TextColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        templeblockBtn.BorderColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        woodblockBtn.TextColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        claveBtn.TextColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        templeblockBtn.TextColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        metronome.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        metronome.ProgressColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        gridContainer.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        poop.TextColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                        bpm.TextColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+
+                    }
+                    else
+                    {
+                        wooBtn.BackgroundColor = Color.LightGray;
+                        woodblockBtn.BackgroundColor = Color.LightGray;
+                        claveBtn.BackgroundColor = Color.LightGray;
+                        templeblockBtn.BackgroundColor = Color.LightGray;
+                        grid.BackgroundColor = Color.White;
+                        wooBtn.BorderColor = Color.LightGray;
+                        woodblockBtn.BorderColor = Color.LightGray;
+                        claveBtn.BorderColor = Color.LightGray;
+                        templeblockBtn.BorderColor = Color.LightGray;
+                        wooBtn.TextColor = Color.Black;
+                        templeblockBtn.BorderColor = Color.LightGray;
+                        woodblockBtn.TextColor = Color.Black;
+                        claveBtn.TextColor = Color.Black;
+                        templeblockBtn.TextColor = Color.Black;
+                        metronome.BackgroundColor = Color.LightGray;
+                        metronome.ProgressColor = Color.Blue;
+                        gridContainer.BackgroundColor = Color.White;
+                        poop.TextColor = Color.Black;
+                        bpm.TextColor = Color.Black;
+                    }
+
                     break;
+
+                   
                 }
             }
         }
@@ -155,10 +205,7 @@ namespace metroGnome
                 {
                     Random rdm = new Random();
                     Play();
-                    wooBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
-                    woodblockBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
-                    claveBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
-                    templeblockBtn.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                    
                 }
                 metronome.Progress = progress;
                 await Task.Delay(1);
@@ -183,7 +230,7 @@ namespace metroGnome
                     player.Loop = false;
 
                     players.Add(player);
-
+                    woo = false;
                 }
             }
             else if (b.Text == "Wood Block")
@@ -198,7 +245,7 @@ namespace metroGnome
                     player.Loop = false;
 
                     players.Add(player);
-
+                    woo = false;
                 }
             }
             else if (b.Text == "Clave")
@@ -213,7 +260,7 @@ namespace metroGnome
                     player.Loop = false;
 
                     players.Add(player);
-
+                    woo = false;
                 }
             }
             else if (b.Text == "woo")
@@ -231,8 +278,8 @@ namespace metroGnome
                 }
                 Random rdm = new Random();
                 b.BackgroundColor = Color.FromRgb(rdm.Next(0, 255), rdm.Next(0, 255), rdm.Next(0, 255));
+                woo = true;
 
-                
             }
         }
     }
