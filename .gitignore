@@ -299,3 +299,19 @@ EASD/EASD/\.DS_Store
 Instabug/
 
 VideoBackground/
+
+metroGnome/metroGnome/metroGnome\.Android/bin/
+
+metroGnome/metroGnome/metroGnome\.Android/obj/
+
+metroGnome/metroGnome/metroGnome/bin/
+
+metroGnome/metroGnome/metroGnome/obj/
+
+metroGnome/metroGnome/metroGnome\.iOS/bin/
+
+metroGnome/metroGnome/metroGnome\.iOS/obj/
+
+metroGnome/metroGnome/metroGnome\.UWP/bin/
+
+metroGnome/metroGnome/metroGnome\.UWP/obj/
